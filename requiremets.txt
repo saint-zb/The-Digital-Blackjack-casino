@@ -1,0 +1,4 @@
+this is a list of all the ython modules that i used in building this app
+
+streamlit
+random
