@@ -191,9 +191,9 @@ if st.session_state.game_started:
             st.success(f"🎉 {message}")
         elif winner == "computer":
             st.error(f"😢 {message}")
-        else:
-            pass
-        st.info(f"🤝 {message}")
+        #else:
+         #   pass
+        #st.info(f"🤝 {message}")
 
         # Final scores
         st.write("### Final Results")
@@ -227,4 +227,5 @@ st.sidebar.write("""
 3. Click **Hit** to draw another card
 4. Click **Stand** when you're satisfied
 5. Try to beat the computer's score!
+
 """)
